@@ -54,6 +54,11 @@ Notice that since the AWS instance has a public IP address accessible from any l
   <img src="images/users.png">
 </p>
 
-User 1 is identified as 'P' (the phone user)
-User 2 is identified as 'A'
-User 3 is identified as 'B'
+1. User 1 is identified as 'P' (the phone user)
+2. User 2 is identified as 'A'
+3. User 3 is identified as 'B'
+
+>**NOTE:**
+> The User 1 is connected to the Raspberry pi using sockets (on the same network)
+> The Users 2 & 3 are connected to the AWS instance using sockets.
+> **For additional reference please check the PDF**
