@@ -1,5 +1,5 @@
 # Telecom-platform
-This is a telecommunications using an EC2 instance running CentOS 8, a Raspberry Pi 4 and 2 transceivers.
+This is a telecommunications platform created using an AWS EC2 instance running CentOS 8, a Raspberry Pi 4 and 2 transceivers.
 
 Created as the final project for the course "Taller de Comunicaciones Eléctricas" at Tecnológico de Costa Rica with the collaboration of **Andrey Navarro Monge** 
 
