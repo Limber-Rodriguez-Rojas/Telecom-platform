@@ -7,23 +7,18 @@ Here you can find a diagram of the project:
   <img src="images/diagram.png">
 </p>
 
-## Demo
+## What's in the repo?
 
-Here's a video about loading the file into a bootable USB, and executing it on a real computer
+1. MariaDB example
 
-[Youtube Video](https://www.youtube.com/watch?v=88PV7780HPg "Youtube Video")
+a. Client and server to run make changes on MariaDB (client.c and server.c) 
+b. Client using remote mysql connection to make changes on the database (client_remote_connection.c)
 
->     Make sure you have QEMU installed on your computer to run it! 
+Note:
 
-__________________
 
-## Overview
 
-The game has 2 levels:
-
-1. Shoot and kill 20 enemies
-2. Avoid 20 red points
-
+2. 
 
 Now lets see how they look on QEMU:
 
