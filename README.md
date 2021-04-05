@@ -59,6 +59,6 @@ Notice that since the AWS instance has a public IP address accessible from any l
 3. User 3 is identified as 'B'
 
 >**NOTE:**
-> The User 1 is connected to the Raspberry pi using sockets (on the same network)
-> The Users 2 & 3 are connected to the AWS instance using sockets.
-> **For additional reference please check the PDF**
+> 1. The User 1 is connected to the Raspberry pi using sockets (on the same network)
+> 2. The Users 2 & 3 are connected to the AWS instance using sockets.
+> 3. **For additional reference please check the PDF**
