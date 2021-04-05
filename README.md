@@ -9,23 +9,37 @@ Here you can find a diagram of the project:
 
 ## What's in the repo?
 
-1. MariaDB example
+### MariaDB examples folder
 
-a. Client and server to run make changes on MariaDB (client.c and server.c) 
-b. Client using remote mysql connection to make changes on the database (client_remote_connection.c)
+1. Client and server to run make changes on MariaDB (client.c and server.c)
+2. Client using remote mysql connection to make changes on the database (client_remote_connection.c)
 
-Note:
+>**NOTE:**
+> The RECOMMENDED implementation is the 1.
+> This way you wont need to have the MariaDB client installed on the users.
 
+### Socket examples folder
 
+1. Asynchronous communication
+2. Basics
+3. Bidirecctional
+4. Send images using sockets
 
-2. 
+### Transceivers examples folder
 
-Now lets see how they look on QEMU:
+1. configuration.c is used for setting the boud rate to the transceivers.
+2. The rest of the code is a example on how to create a wireless communication between a respberry pi and a PC using 2 transceivers. 
 
-LEVEL 01 | LEVEL 2 
------------- | ------------- 
-<img src="Images/game1_2.png" width = "360"> | <img src="Images/game2_2.png" width = "360"> 
+### Final Project folder
 
-### Controls
+This contains all of the code necessary to make the platfrom 100% functional with all of the requirements. (Initialization protocol, Error detection, Statistics information, etc)
 
-<img src="Images/bare_metal_keyboard.png">
+1. awserver.c needs to be deployed on the AWS ec2 instance. 
+2. client.c is executed on the phone or computer (user 3)
+3. pc_Asy.c is executed on the PC that is connected to the transceiver. 
+4. rasp_Asy.c is excecuted on the Raspberry Pi 4 (this must have the transceiver connected onto the pins)
+5. usuario.c is executed on the users 1 & 2.
+
+## Important notes
+
+Eventhough 
