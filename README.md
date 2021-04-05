@@ -40,6 +40,20 @@ This contains all of the code necessary to make the platfrom 100% functional wit
 4. rasp_Asy.c is excecuted on the Raspberry Pi 4 (this must have the transceiver connected onto the pins)
 5. usuario.c is executed on the users 1 & 2.
 
+Here you can see a diagram on where to compile the code:
+
+<p align="center">
+  <img src="images/location_of_code.png">
+</p>
+
 ## Important notes
 
-Eventhough 
+Notice that since the AWS instance has a public IP address accessible from any location. You can have both users on different geographical locations.
+
+<p align="center">
+  <img src="images/users.png">
+</p>
+
+User 1 is identified as 'P' (the phone user)
+User 2 is identified as 'A'
+User 3 is identified as 'B'
