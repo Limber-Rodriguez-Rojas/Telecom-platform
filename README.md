@@ -4,7 +4,7 @@ This is a telecommuncations platform that was created for the course "Taller de 
 Here you can find a diagram of the project:
 
 <p align="center">
-  <img src="Images/computer.png">
+  <img src="Images/diagram.png">
 </p>
 
 ## Demo
