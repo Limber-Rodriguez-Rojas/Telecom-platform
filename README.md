@@ -1,5 +1,5 @@
 # Telecom-platform
-This is a telecommuncations platform that was created for the course "Taller de Comunicaciones Eléctricas" using an EC2 instance running on CentOS8, a Raspberry Pi 4 and 2 transceviers.
+This is a telecommuncations platform that was created for the course "Taller de Comunicaciones Eléctricas" using an EC2 instance running CentOS 8, a Raspberry Pi 4 and 2 transceviers.
 
 Here you can find a diagram of the project:
 
